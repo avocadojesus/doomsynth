@@ -7,8 +7,6 @@ var browserify = require('browserify');
 var watchify = require('watchify');
 var reactify = require('reactify');
 var streamify = require('gulp-streamify');
-var lessify = require('lessify');
-var minify = require('gulp-minify');
 
 var path = {
   HTML: 'static/index.html',
