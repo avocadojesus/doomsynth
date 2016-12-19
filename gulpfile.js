@@ -6,6 +6,7 @@ var source = require('vinyl-source-stream');
 var browserify = require('browserify');
 var watchify = require('watchify');
 var reactify = require('reactify');
+var lessify = require('lessify');
 var streamify = require('gulp-streamify');
 
 var path = {
